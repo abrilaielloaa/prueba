@@ -1,0 +1,40 @@
+img{
+    width: 300px;
+    display: inline-block;
+}
+h1{
+    display: inline;
+}
+.divColor{
+    background-color: yellow;
+    width:300px;
+    height: 300px;
+    display: inline-block;
+}
+.position div{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.relative{
+    background-color: hotpink;
+    position:relative;
+    top: 10px;
+    left: 100px;
+}
+.absolute{
+    background-color: lawngreen;
+    position: absolute;
+    top: 300px;
+    left: 300px
+
+}
+.fixed{
+    background-color: lavender;
+    
+}
+.sticky{
+    background-color: cyan;
+    position: sticky;
+    top: 1px;
+}
